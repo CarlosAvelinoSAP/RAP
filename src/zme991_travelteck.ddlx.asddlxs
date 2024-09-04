@@ -1,0 +1,28 @@
+@Metadata.layer: #CORE
+
+@UI: {
+    headerInfo: {
+        typeName: 'Travel Tech',
+        typeNamePlural: 'Travels Teck',
+        title: {
+            type: #STANDARD,
+            label: 'Travel Teck'
+        }
+    }
+}
+
+
+annotate entity
+   z991_travel_tech_m with
+   {
+      @UI.lineItem: [{ position: 10 }]
+      AgencyId;
+      @UI.lineItem: [{ position: 20 }]
+      CustomerId;
+      @UI.lineItem: [{ position: 30 }]
+      Description;
+      @UI.lineItem: [{ position: 40 }]
+      CreatedAt;
+      @UI.lineItem: [{ position: 50 }]
+      CreatedBy;
+   }

@@ -1,0 +1,4 @@
+@EndUserText.label: 'Travel tech service definition'
+define service ZSD991_travel_tech_m {
+  expose z991_travel_tech_m as travelTech;
+}
